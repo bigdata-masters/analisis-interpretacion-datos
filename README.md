@@ -2,7 +2,7 @@
 ### Definición de un problema estadístico: modelización y propuesta de soluciones
 
 ## Resumen (abstract)
-<p align=justify>
+<p align=left>
   > Este estudio, basado en la Encuesta ENAPE 2021 del INEGI, analiza los posibles factores asociados a la deserción
   escolar en México, con especial énfasis en el entorno familiar y las expectativas educativas que los padres tienen
   respecto al nivel académico que sus hijos pueden alcanzar.
@@ -13,7 +13,7 @@
 <code><img title="R" alt="r" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" /></code>
 
 ## Introducción
-<p align=justify>
+<p align=left>
   En México, la deserción escolar es un tema que afecta al desarrollo y el bienestar de miles de jóvenes y que no solo
   tiene repercusiones para su futuro, sino que también tiene efectos en el crecimiento económico, cultural y social del
   país. Este tema ha sido abordado por diferentes autores debido a su relevancia y a la criticidad de este. Ya que los
@@ -23,14 +23,14 @@
   ingreso familiar; y pedagógicos, relacionados con las estrategias, actividades, recursos y evaluación académica”.
 </p>
 
-<p align=justify>
+<p align=left>
   En este artículo nos centraremos en uno de los factores más importantes que influye en la deserción escolar: el apoyo
   y el entorno familiar. Y para ser más precisos, cómo las expectativas y el apoyo que brindan los padres puede
   repercutir de cierta manera hacia el estudiante en cuestión. Ya que la familia es el vínculo más cercano que desempeña
   un papel muy importante en el crecimiento y formación de los jóvenes.
 </p>
 
-<p align=justify>
+<p align=left>
   Actualmente se sabe que la deserción escolar en 2021 para nuestro país fue de un 8.8% por ciento,
   así como se señaló en el “Boletín 100 Desciende a 8.1% tasa de abandono escolar en Educación
   Superior: SEP” (2023). Por medio del análisis de la información pública para el año 2021
@@ -39,7 +39,7 @@
 </p>
 
 ## Metodología
-<p align=justify>
+<p align=left>
   Para este estudio se realizó una investigación documental con un enfoque cuantitativo. Debido a la disponibilidad y
   fiabilidad de la información disponible a través del INEGI (Instituto Nacional de Estadística y Geografía). Basándose
   principalmente en las respuestas de la “Encuesta Nacional sobre Acceso y Permanencia en la Educación (ENAPE) 2021”. El
@@ -58,7 +58,7 @@
 </p>
 
 ## Base de Datos
-<p align=justify>
+<p align=left>
   Hemos recopilado datos de la base de datos del INEGI (Instituto Nacional de Estadística y Geografía) basándonos
   principalmente en las respuestas de la “Encuesta Nacional sobre Acceso y Permanencia en la Educación (ENAPE) 2021”.
   Los datos incluyen la edad, sexo (hombre o mujer), nivel de estudios alcanzado, si los estudiantes reciben apoyo por
@@ -69,16 +69,16 @@
 ## Modelo Estadístico
 
 ### Regresión Lineal
-<p align=justify>
+<p align=left>
   Para abordar el problema de la deserción escolar, proponemos utilizar un modelo de regresión lineal. Tomaremos como
   variable independiente ¿Cuál es la razón principal por la cual no se inscribió en el ciclo escolar actual?, ¿Cuál es
   la razón principal por la cual no concluyó sus estudios? como variable dependiente.
 </p>
 
-<p align=justify>
+<p align=left>
   Resultados:
 </P>
-<p align=justify>
+<p align=left>
   Hemos encontrado una pequeña correlación entre la razón por la que los estudiantes no están inscritos en el ciclo
   2021-2022 según la información registrada en la base de datos y la razón por la cual no concluyó sus estudios en el
   ciclo anterior 2020-2021. Aunque existe una pequeña relación entre las variables, hay otros factores que pueden
@@ -97,7 +97,7 @@
 </p>
 <p align=center><em>Figura 2. Regresión Lineal</em></p>
 
-<p align=justify>
+<p align=left>
   Si bien identificamos una pequeña correlación de 0 a 1 entre las variables (dependiente e
   independiente), reconocemos que esta relación no es un factor determinante y aunque puede haber
   cierta interacción entre las circunstancias actuales y pasadas, la comprensión completa de cada
@@ -105,7 +105,7 @@
   factores.
 </p>
 
-<p align=justify>
+<p align=left>
   Asimismo, en el análisis descriptivo podemos observar que las razones más importantes por las
   cuales los estudiantes no se inscriben en un nuevo año escolar, son en orden: 4) Logró su meta
   educativa, 3) Falta de interés o aptitud para la escuela (no quiso o no le gustó), 1) Por falta de dinero o recurso, y
@@ -116,7 +116,7 @@
 </p>
 
 ### Prueba de Hipótesis
-<p align=justify>
+<p align=left>
   Para el caso de la expectativa que tienen los padres del nivel educativo que estos alcanzaran. Se
   observó en la gráfica que no hay gran disparidad en las expectativas a diferentes niveles. Pero para comprobar dicha
   aseveración, procedimos a clasificar a la población en 4 diferentes grupos; los cuales corresponden a los grados de 1)
@@ -126,19 +126,19 @@
   de dichas respuestas es nulas en la mayoría de los casos.
 </p>
 
-<p align=justify>
+<p align=left>
   Resultados:
 </P>
-<p align=justify>
+<p align=left>
   A continuación, se prosiguió a generar una prueba de hipótesis de muestras independientes (también conocida como
   “Prueba T de Welch”), definiendo nuestra H0 y H1:
 </p>
 
-<p align=justify>
+<p align=left>
   H0: Las medias de los grupos son iguales H1: Las medias de los grupos son diferentes.
 </p>
 
-<p align=justify>
+<p align=left>
   Como se puede observar, en todos los casos al ser P-valor mayor a 0.5; no tenemos suficiente
   evidencia estadística para rechazar nuestra H0. Indicando que la diferencia entre medias para cada grupo no es
   significativa. Indicando que el sexo de alumno no influye en la expectativa de la escolaridad por parte de los padres.
@@ -152,7 +152,7 @@
 <p align=center><em>Figura 3. Resultado de pruebas de T Welch, expectativa de padres por género y nivel</em></p>
 
 ## Conclusión
-<p align=justify>
+<p align=left>
   Este estudio sirve para visualizar la gran cantidad de factores a los que los alumnos se enfrentan al momento de
   realizar los estudios. Y conforme a los resultados podemos observar que la deserción escolar, efectivamente no muestra
   una clara tendencia ni una influencia a la que podamos atribuir este fenómeno por parte del entorno familiar y el
