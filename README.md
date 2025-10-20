@@ -1,4 +1,13 @@
-# Análisis e Interpretación de Datos - Desercion escolar en México
+<p align="right">
+  <a href="./README.md">
+    <img alt="Español" src="https://img.shields.io/badge/ES-Español-blue">
+  </a>
+  <a href="./README.en.md">
+    <img alt="English" src="https://img.shields.io/badge/EN-English-lightgrey">
+  </a>
+</p>
+
+# Análisis e Interpretación de Datos - Deserción escolar en México
 ### Definición de un problema estadístico: modelización y propuesta de soluciones
 
 ## Resumen (abstract)
@@ -185,5 +194,5 @@ Superior: SEP*. Blog del Gobierno Federal de México.
 
 
 ## ⚙️ Autores:
-- [@CamarenaAI](https://github.com/CamarenaAI)
-- [@erkmb](https://github.com/erkmb)
+- [Alonso Ismael Camarena](https://www.linkedin.com/in/camarenaai/) (Investigador y Creador de Dashboard)
+- [Erick Martinez Blas](https://www.linkedin.com/in/erick-martinez-blas/) (Organizador, Investigador y Desarrollador de scripts R)
